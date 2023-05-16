@@ -1,0 +1,223 @@
+/* bdy{
+  color: black !important;
+  line-height: 0 !important;
+} */
+/* Body */
+.flex-container a:hover{
+  background-color: #183c94;
+  color: #fff;
+}
+.container-column{
+    background-color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 20px;
+    height: 80vh;
+}
+.container-column>div{
+  padding-top: 180px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 20%;
+}
+.container-column h2{
+    font-size: 1.4em;
+}
+.flex-container a{
+    text-decoration: none;
+    color: black;
+    background-color: #2864f6;
+    padding: 10px 24px;
+    border-radius: 5px;
+}
+.ticket-form{
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 75%;
+}
+.ticket-form input[type="text"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    
+  }
+  .flex-row{
+    display: flex;
+    gap: 20px;
+  }
+  .flex-row div{
+    width: 100%;
+  }
+  .ticket-form input[type="submit"] {
+    padding: 10px 250px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2864f6;
+  } 
+  .ticket-form input[type="submit"]:hover {
+    background-color: #183c94;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+/* Alert */
+
+.success-message, .errormsg {
+  left: 50px;
+  width: 300px;
+  height: 80px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.success-message p, .errormsg p{
+  font-size: 1.2em;
+}
+.success-message{
+  background-color: #d1e7dd;
+}
+.errormsg{
+  background-color: #f8d7da;
+}
+.backend-admin-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+ /* Employee */
+
+ .view-container{
+  color: black !important;
+font-size: 16px !important;
+  
+ }
+ .view-container table{
+  width: 100%;
+  border-spacing: 0;
+  padding-top: 30px;
+  padding-right: 15px;
+ }
+
+  .view-container th{
+  background-color: #94b2fb;
+  padding: 10px;
+}
+.view-container th
+.view-container tr:nth-child(odd) {
+  background-color: #fff;
+}
+.view-container td{
+  padding: 10px 0 10px 30px;
+
+}
+
+.container-wide{
+  width: 80%;
+}
+.container-narrow{
+  width: 20%;
+}
+.view-container a{
+  text-align: center;
+  text-decoration: none;
+  width: 40%;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px; 
+  color: #fff;
+}
+.Donebtn:hover{
+  background-color: #183c94;
+}
+.Actions{
+  width: 300px;
+  display: flex; 
+ gap: 10px;
+}
+
+.edit-button, .delete-button{
+  padding: 10px;
+  width: 40%;
+  border-radius: 5px;
+  
+}
+.edit-button a, .delete-button a{
+  color: black;
+}
+.edit-button a:hover, .delete-button a:hover{ 
+  color: #fff;
+}
+.edit-button{
+  background-color: #b6f628; 
+}
+.edit-button:hover{
+  background-color: #28a745;
+  color: #fff;
+}
+.delete-button{
+  background-color:#f62864;
+}
+.delete-button:hover{
+  background-color: #dc3545;
+  color: #fff
+}
+/* Update form */
+
+.update-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.update-form form>div{
+  display: flex; 
+ flex-direction: column;
+ width: 500px;
+ gap: 10px;
+}
+.update-form a{
+  text-align: center; 
+}
+.update-form a:hover{
+  background-color: #183c94;
+  
+}
+.update-form form a:hover{
+  color: #fff;
+}
+.update-form form input[type="submit"]{
+  background-color: #2864f6;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+.update-form form input[type="submit"]:hover
+{
+  background-color: #183c94;
+  color: #fff;
+}
+
+/* Restore */
+.restore-button, .complete-delete-button{
+  padding: 10px;
+  width: 40%;
+  border-radius: 5px;
+}
+.restore-button{
+  background-color: #b6f628;
+}
+.complete-delete-button{
+  background-color:#f62864;
+}
